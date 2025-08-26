@@ -65,7 +65,7 @@ function showHint() {
         .sort((a,b) => a - b)
         .join('');
 
-    document.getElementById('correctFingering').textContent = `Hint: ${hint}`;
+    document.getElementById('correctFingering').textContent = `Answer: ${hint}`;
 }
 
 // Check fingering submission
