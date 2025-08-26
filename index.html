@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Brass Fingering Trainer</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Brass Fingering Trainer</h1>
+<p>Use A, S, D for horn and J,K,L for other instruments. Press SPACE to submit.</p>
+<select id="instrumentSelect">
+  <option value="trumpet">Trumpet</option>
+  <option value="horn">French Horn</option>
+  <option value="euphonium">Euphonium (3 Keys)</option>
+</select>
+<canvas id="staff" width="500" height="200"></canvas>
+<div id="timer"></div>
+<div id="correctFingering"></div>
+<script src="drawing.js"></script>
+<script src="notes.js"></script>
+<script src="logic.js"></script>
+</body>
+</html>
